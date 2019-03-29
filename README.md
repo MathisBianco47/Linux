@@ -98,3 +98,10 @@ Mettez en place ce qu'il faut pour avoir un pompte et une complétions adapté �
 Réponse: `echo $PS1`
          `PS1=""`
 
+
+
+--
+OTHER TD 3 
+--
+
+**TD 3**
