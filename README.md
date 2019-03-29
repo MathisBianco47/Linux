@@ -4,6 +4,8 @@
 **TP challenges**
 ---
 
+TD 1: Utilisation de Bash
+
 **Le premier:**
 
 Le fichier /etc/passwd défini les utilisateurs, le 4ieme champ contien l'id de groupe le gid.
@@ -22,4 +24,8 @@ Exemple:
         
 En utilisant ceci et la réponse à la première question, affichez en une seule commande le nom du groupe associé au gid le plus utilisé
 
-Réponse: `......`
+Réponse: `echo mon uid est $(grep bianco /etc/passwd | cut -d: -f3 | head -1)`
+
+
+
+## Other TD 2
